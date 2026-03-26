@@ -16,9 +16,9 @@ body {
 header {
     text-align: center;
     padding: 80px 20px;
-    background: linear-gradient(135deg, #0f3d2e, #145c44);
+    background: linear-gradient(135deg, #0f4d3a, #1a7a55);
     color: #eafff6;
-    box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
     animation: fadeDown 1s ease;
 }
 
@@ -35,8 +35,8 @@ header .subtitle {
 
 /* ===== NAV ===== */
 .nav {
-    background: rgba(10, 25, 22, 0.85);
-    backdrop-filter: blur(10px);
+    background: rgba(20, 45, 40, 0.85);
+    backdrop-filter: blur(12px);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -51,22 +51,23 @@ header .subtitle {
 
 .nav a {
     text-decoration: none;
-    color: #a7d8c8;
+    color: #aee8d6;
     font-weight: 600;
-    padding: 10px 18px;
+    padding: 10px 20px;
     border-radius: 30px;
     transition: all 0.3s ease;
 }
 
 .nav a:hover {
-    background: rgba(0,255,170,0.15);
+    background: rgba(0, 230, 150, 0.2);
     transform: translateY(-2px);
 }
 
-.nav a.active {
-    background: linear-gradient(135deg, #00c896, #00e6a8);
+/* Подсветка активного пункта на странице */
+.nav a.active[href$="diagramm.html"] {
+    background: linear-gradient(135deg, #00e6a8, #5affc2);
     color: #00291f;
-    box-shadow: 0 5px 20px rgba(0,255,170,0.4);
+    box-shadow: 0 6px 22px rgba(0, 230, 150, 0.5);
 }
 
 /* ===== CONTENT ===== */
@@ -78,7 +79,7 @@ header .subtitle {
 
 /* ===== INTRO ===== */
 .intro {
-    background: #162521;
+    background: #1a3530;
     padding: 40px;
     border-radius: 25px;
     margin-bottom: 40px;
@@ -88,20 +89,18 @@ header .subtitle {
 
 /* ===== CARDS ===== */
 .card {
-    background: #162521;
+    background: #1a3530;
     padding: 30px;
     border-radius: 25px;
     margin-bottom: 30px;
     box-shadow: 0 12px 35px rgba(0,0,0,0.5);
     border: 1px solid rgba(0,255,170,0.08);
-
-    /* анимация появления */
     opacity: 0;
     transform: translateY(40px);
     animation: fadeUp 0.8s ease forwards;
 }
 
-/* задержки (эффект по очереди) */
+/* задержки появления */
 .card:nth-child(1) { animation-delay: 0.2s; }
 .card:nth-child(2) { animation-delay: 0.4s; }
 .card:nth-child(3) { animation-delay: 0.6s; }
@@ -111,8 +110,8 @@ header .subtitle {
 
 .card:hover {
     transform: translateY(-6px) scale(1.02);
-    box-shadow: 0 0 25px rgba(0,255,170,0.2),
-    0 20px 60px rgba(0,0,0,0.8);
+    box-shadow: 0 0 25px rgba(0,255,170,0.25),
+    0 20px 60px rgba(0,0,0,0.6);
 }
 
 /* ===== HEADINGS ===== */
@@ -145,13 +144,12 @@ footer {
     text-align: center;
     padding: 60px 20px;
     margin-top: 60px;
-    background: linear-gradient(135deg, #0f3d2e, #145c44);
+    background: linear-gradient(135deg, #0f4d3a, #1a7a55);
     color: #c8fff0;
     position: relative;
     animation: fadeUp 1.2s ease;
 }
 
-/* glow line */
 footer::before {
     content: "";
     position: absolute;
@@ -165,7 +163,6 @@ footer::before {
     box-shadow: 0 0 15px #00e6a8;
 }
 
-/* glow effect */
 footer::after {
     content: "";
     position: absolute;
