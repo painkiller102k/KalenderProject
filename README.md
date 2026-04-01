@@ -1,13 +1,16 @@
-# 📅 KalenderProject MicrosoftProjecet
+# 📅 KalenderProject MicrosoftProject
 
 ## 📑 Sisukord
 - [📌 Projekti kirjeldus](#-projekti-kirjeldus)
+- [✅ Ülesannete nimekiri](#-ülesannete-nimekiri)
 - [🚀 Põhifunktsionaalsus](#-põhifunktsionaalsus)
 - [🖼️ Ekraanipildid](#️-ekraanipildid)
 - [🛠️ Kasutatud tehnoloogiad](#️-kasutatud-tehnoloogiad)
 - [📂 Projekti struktuur](#-projekti-struktuur)
+- [💡 Märkused ja hoiatused](#-märkused-ja-hoiatused)
+- [💻 Koodinäited](#-koodinäited)
 - [🔗 Lingid](#-lingid)
-- [👨‍💻 Autor](#-autor)
+- [📝 Footnotes](#-footnotes)
 
 ---
 
@@ -21,7 +24,18 @@ Projekt aitab kasutajal samm-sammult aru saada:
 - 📊 diagrammide kasutamisest  
 - 🧮 arvutusväljade (Custom Fields) kasutamisest  
 
-Kõik juhised on vormistatud mugava veebilehena koos visuaalsete näidete ja ekraanipiltidega.
+Kõik juhised on vormistatud mugava veebilehena koos visuaalsete näidete ja ekraanipiltidega[^2].
+
+---
+
+## ✅ Ülesannete nimekiri
+
+- [x] HTML lehed loodud
+- [x] CSS disain valmis
+- [x] Navigatsioon töötab
+- [x] Ekraanipildid lisatud
+- [ ] JavaScript funktsionaalsus
+- [ ] Andmete salvestamine
 
 ---
 
@@ -42,7 +56,7 @@ Projekt sisaldab mitut lehekülge:
 ### 📊 Diagrammid (diagramm.html)
 - Report vahekaardi kasutamine  
 - Diagrammide koostamine  
-- Ressursside ja kulude analüüs  
+- Ressursside ja kulude analüüs[^1]
 
 ---
 
@@ -77,17 +91,57 @@ KalenderProject/
 │── style.css
 │── images/
 
+---
+
+## 💡 Märkused ja hoiatused
+
+> **NB:** Projekt töötab otse brauseris ega vaja serverit.  
+> **TIP:** Soovitatav avada projekt Google Chrome või Edge brauseris.  
+> **HOIATUS:** Mõned funktsioonid võivad vanemates brauserites mitte töötada.
 
 ---
 
+## 💻 Koodinäited
+Kuidas on sektsioonid ja astmed tehtud:
+
+```html
+ <section class="intro">
+        <h2>Mis on MS Project ja kalendrid</h2>
+        <p>Microsoft Project on projektijuhtimise tarkvara, mis aitab planeerida, jälgida ja hallata projekte. Kalendrid võimaldavad määrata tööajad, puhkeajad ja eripäevad, et tagada realistlik ja täpne ajakava.</p>
+        <p>Kasutades kalendreid projektis, saate automaatselt arvutada ülesannete kestuse, jälgida tähtpäevi ja vältida ajakava konflikte, tagades, et kõik projektis osalejad töötavad õigel ajal.</p>
+    </section>
+```
+Kuidas on CSS animatsioonid tehtud:
+```css
+.nav a.active[href$="diagramm.html"] {
+    background: linear-gradient(135deg, #00e6a8, #5affc2);
+    color: #00291f;
+    box-shadow: 0 6px 22px rgba(0, 230, 150, 0.5);
+}
+
+.card:nth-child(1) { animation-delay: 0.2s; }
+.card:nth-child(2) { animation-delay: 0.4s; }
+.card:nth-child(3) { animation-delay: 0.6s; }
+.card:nth-child(4) { animation-delay: 0.8s; }
+.card:nth-child(5) { animation-delay: 1s; }
+.card:nth-child(6) { animation-delay: 1.2s; }
+
+.card:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 0 25px rgba(0,255,170,0.25),
+    0 20px 60px rgba(0,0,0,0.6);
+}
+```
 ## 🔗 Lingid
-- GitHub: https://github.com/painkiller102k/KalenderProject  
-- Microsoft Project: https://www.microsoft.com/en/microsoft-365/project/project-management-software
-- GitHub Pages: https://painkiller102k.github.io/KalenderProject/
+- [GitHub](https://github.com/painkiller102k/KalenderProject)
+- [Microsoft Project](https://www.microsoft.com/en/microsoft-365/project/project-management-software)[^3]
+- [GitHub Pages](https://painkiller102k.github.io/KalenderProject/)
 
 ---
 
 
-## 👨‍💻 Autor
-Martin Rossakov  
-TARpv24  
+## 📝 Footnotes 
+[^1]: Projekti raames kulutatud raha graafiku vaatamine töötaja ja eseme kaupa.  
+[^2]: Ekraanipildid on tehtud iseseisvalt rakenduses Microsoft Project.  
+[^3]: Microsoft Project ametlik veebileht.
+    
