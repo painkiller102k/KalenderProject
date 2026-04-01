@@ -84,20 +84,28 @@ Projekt on loodud kasutades põhilisi veebitehnoloogiaid:
 ---
 
 ## 📂 Projekti struktuur
+
+```text
 KalenderProject/
-│── index.html
-│── valem.html
-│── diagramm.html
-│── style.css
-│── images/
+├── 📄 index.html        # Kalenderi leht
+├── 📄 valem.html        # Arvutusväli leht
+├── 📄 diagramm.html     # Diagrammide leht
+├── 📄 style.css         # Stiilid ja animatsioonid
+└── 🖼️ images/          # Kõik ekraanipildid ja graafika
+```
 
 ---
 
 ## 💡 Märkused ja hoiatused
 
-> **NB:** Projekt töötab otse brauseris ega vaja serverit.  
-> **TIP:** Soovitatav avada projekt Google Chrome või Edge brauseris.  
-> **HOIATUS:** Mõned funktsioonid võivad vanemates brauserites mitte töötada.
+>[!WARNING]
+>Projekt töötab otse brauseris ega vaja serverit.
+
+>[!NOTE]
+>Soovitatav avada projekt Google Chrome või Edge brauseris.
+
+>[!IMPORTANT]
+>Mõned funktsioonid võivad vanemates brauserites mitte töötada.
 
 ---
 
