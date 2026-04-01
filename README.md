@@ -63,13 +63,10 @@ Projekt sisaldab mitut lehekülge:
 ## 🖼️ Ekraanipildid
 
 ### 📆 Kalendri loomine
-![Kalender](images/esimene.png)
+<img width="1901" height="657" alt="{A319B13B-8154-4B32-B45D-6E424C39D73B}" src="https://github.com/user-attachments/assets/8150935a-a9b9-4e04-bdbc-d60dfb979154" />
 
 ### 🧮 Custom Fields
-![Fields](images/1.png)
-
-### 📊 Diagrammid
-![Diagrammid](images/es.png)
+<img width="1904" height="907" alt="{94529A90-1BDD-4521-B934-56B96CADE0E3}" src="https://github.com/user-attachments/assets/ea1133e8-3ecc-454e-b97e-2576db0a54a3" />
 
 ---
 
