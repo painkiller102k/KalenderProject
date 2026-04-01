@@ -49,7 +49,7 @@ Projekt sisaldab mitut lehekülge:
 
 ### 📊 Diagrammid (diagramm.html)
 - GANTT-diagrammide vaatamine
-- Ressursidiagrammide vaatamine[^1]
+- Network vaatamine[^1]
 
 ---
 
@@ -144,6 +144,6 @@ Kuidas on CSS animatsioonid tehtud:
 
 
 ## 📝 Footnotes 
-[^1]: Ressursidiagramm näitab töötajate ja materiaalsete ressursside kulutatud aega ja summasid.  
+[^1]: Diagramm näitab ürituse tegevuste järjestust ja kestust koos nende omavaheliste seostega..  
 [^2]: ProjectLibre ametlik veebileht.
     
