@@ -1,4 +1,4 @@
-# 📅 KalenderProject
+# 📅 KalenderProject MicrosoftProjecet
 
 ## 📑 Sisukord
 - [📌 Projekti kirjeldus](#-projekti-kirjeldus)
